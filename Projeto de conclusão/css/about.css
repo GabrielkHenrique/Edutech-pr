@@ -1,0 +1,21 @@
+.panel-subscribe{
+    margin-top: 2.5rem;
+}
+.panel-about{
+    padding: 5px 15px 0 32px;
+    text-align: center;
+}
+.title{
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.about-description{
+    line-height: 35px;
+    margin-top: 1.5rem;
+    font-size: 1.5em;
+}
+.subtitle{
+    margin-top: 0.9rem;
+    font-weight: bold;
+    font-size: 1.8em;
+}

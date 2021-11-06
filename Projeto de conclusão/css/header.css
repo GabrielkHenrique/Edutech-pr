@@ -1,0 +1,65 @@
+header{
+    background-image: url(/img/destaque.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+    
+}
+.nav-flex{
+    text-align: center;
+
+}
+.header-li--link{ 
+    margin: 0 2px 32px 0;
+    display: inline;
+}
+.nav-link{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    transition: 0.5s;
+    background: #50A3A7;
+}
+/*Painel*/
+.section-header{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 0 44px 0;
+}
+.section-titulo{
+    padding: 25px;
+    
+}
+.titulo-header{
+    color: white;
+    font-size: 3em;
+    text-shadow:5px 5px 10px black;
+}
+.subtitulo-header{
+    margin-top: 10px;
+    font-size: 2.6em;
+    color:lawngreen;
+    text-shadow:5px 5px 10px black;
+}
+.link-inscreva-se{
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+    padding: 25px 50px;
+    background-color: #48A3A6;
+    border-radius: 5px;
+}
+
+@media(min-width: 650px){
+    .section-header{
+        font-size: 28px;
+    }
+
+    
+}
